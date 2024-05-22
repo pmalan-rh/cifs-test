@@ -1,4 +1,4 @@
-from registry.redhat.io/ubi8/ubi:latest
+from rocky:9.2
 
 RUN dnf -y install cifs-utils
 CMD ["/bin/bash"]
