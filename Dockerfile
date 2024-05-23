@@ -1,4 +1,4 @@
-from quay.io/fedora/fedora:40
+FROM quay.io/fedora/fedora:40
 
 
 RUN dnf -y install cifs-utils
